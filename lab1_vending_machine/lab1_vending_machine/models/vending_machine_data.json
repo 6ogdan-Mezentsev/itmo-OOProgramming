@@ -1,0 +1,15 @@
+{
+  "Products": [
+    {
+      "Name": "Cola ",
+      "Price": 10,
+      "Quantity": 2
+    },
+    {
+      "Name": "Pepsi",
+      "Price": 5,
+      "Quantity": 3
+    }
+  ],
+  "MachineBalance": 0
+}
