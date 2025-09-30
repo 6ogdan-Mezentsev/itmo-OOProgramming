@@ -1,7 +1,7 @@
 {
   "Products": [
     {
-      "Name": "Cola ",
+      "Name": "Cola",
       "Price": 10,
       "Quantity": 2
     },
@@ -9,7 +9,37 @@
       "Name": "Pepsi",
       "Price": 5,
       "Quantity": 3
-    }
+    },
+    {
+      "Name": "Fanta",
+      "Price": 8,
+      "Quantity": 6
+    },
+    {
+      "Name": "Sprite",
+      "Price": 8,
+      "Quantity": 7
+    },
+    {
+      "Name": "Water",
+      "Price": 5,
+      "Quantity": 10
+    },
+    {
+      "Name": "Snickers",
+      "Price": 12,
+      "Quantity": 6
+    },
+    {
+      "Name": "Mars",
+      "Price": 12,
+      "Quantity": 6
+    },
+    {
+      "Name": "KitKat",
+      "Price": 11,
+      "Quantity": 5
+    },
   ],
   "MachineBalance": 0
 }
