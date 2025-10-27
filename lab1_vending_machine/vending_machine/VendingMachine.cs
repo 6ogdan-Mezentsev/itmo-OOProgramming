@@ -8,7 +8,11 @@ public class VendingMachine
 {
     private List<Product> _products = new();
     private int _machineBalance = 0;
-    private string _filePath = "/Users/6ogdanmezentsev/Desktop/ITMO learn/2 курс/labs_prog/lab1_vending_machine/lab1_vending_machine/models/vending_machine_data.json";
+    private string _filePath = Path.Combine(
+        AppContext.BaseDirectory,
+        "..", "..", "..", "models",
+        "vending_machine_data.json"
+    );
     
     public int GetProductCount()
     {
