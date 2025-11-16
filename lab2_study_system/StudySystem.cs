@@ -8,6 +8,11 @@ public class StudySystem
     public static StudySystem Instance => _instance ??= new StudySystem();
     private StudySystem() { }
     
+    public static void Reset()
+    {
+        _instance = null;
+    }
+    
     private List<Course> _courses = new();
     public IReadOnlyList<Course> Courses => _courses.AsReadOnly();
     
